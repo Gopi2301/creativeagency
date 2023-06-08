@@ -1,7 +1,8 @@
 body {
-    max-width: 100%;
+    /* max-width: 100vw; */
+    display: grid;
     overflow-x: hidden;
-    width: 100%;
+    width: 100vw;
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -9,6 +10,7 @@ body {
 
 .header {
     /* background-color:slateblue; */
+    margin-bottom: 50px;
     display: block;
     overflow: hidden;
     position: absolute;
@@ -19,6 +21,7 @@ body {
 }
 
 .title-bg {
+    /* margin-top: 45px; */
     background: url("../assets/background.png");
     height: 720px;
     width: 100vw;
@@ -151,6 +154,7 @@ body {
 }
 
 .card-text {
+    width: 246px;
     margin-top: 10px;
     font-size: 10px;
     line-height: 24px;
@@ -170,10 +174,9 @@ li {}
 }
 
 .card {
-    /* float:left; */
-    margin-right: 20px;
-    width: 246px;
+    width: calc(100%/3);
     display: inline-block;
+    margin-right: calc((100% / 3) - 300px);
 }
 
 /* 1322px */
