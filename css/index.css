@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+ul {
+    padding: 0
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -48,16 +52,19 @@ p {
 
 .text-container>.text-img {
     width: 666px;
-    margin-left: 306px;
+    /* margin-left: 306px; */
 }
 
-.text-container>.gradient {
-    margin-left: 387px;
+.image-container {
+    margin: 0 auto;
+    text-align: center;
 }
+
 
 .cards {
     margin-left: 230px;
-    margin-top: 20px;
+    /* text-align: center; */
+    margin-top: 40px;
     /* margin:0 auto; */
 }
 
@@ -95,8 +102,13 @@ p {
     margin-top: 72px;
 }
 
-.text-para-2 {
+.fs13 {
     font-size: 13px;
+}
+
+.text-para-2 {
+    /* font-size: 13px; */
+    margin-top: 30px;
     line-height: 18px;
     color: #293340;
 }
@@ -113,14 +125,14 @@ p {
 }
 
 .text-para-3 {
-    font-size: 13px;
+    /* font-size: 13px; */
     line-height: 16px;
     color: #6d7783;
     margin-top: 15px;
 }
 
 .list {
-    font-size: 13px;
+    /* font-size: 13px; */
     line-height: 16px;
     margin-top: 19px;
     color: #6d7783;
