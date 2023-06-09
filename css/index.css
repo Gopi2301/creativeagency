@@ -100,7 +100,7 @@ p {
     font-size: 10px;
     line-height: 24px;
     color: #6d7783;
-    width: 246px;
+    width: 240px;
 }
 
 .text-para-1 {
@@ -189,6 +189,7 @@ p {
 }
 
 .footer-text {
+    margin-top: 20px;
     color: #ffff;
     background-color: #1f2026;
     padding: 0 16px;
