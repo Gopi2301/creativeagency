@@ -32,7 +32,7 @@ p {
 
 .title-bg {
     width: 100vw;
-    background-image: url('/assets/background.png');
+    background-image: url('../assets/background.png');
     position: relative;
 }
 
