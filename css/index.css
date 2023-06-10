@@ -10,6 +10,11 @@ h1 {
     font-size: 100%;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     padding: 0;
     list-style: none;
@@ -91,7 +96,8 @@ li {
     color: #6d7783;
 }
 
-.list {
+.list>li {
+    list-style-type: disc;
     margin-top: 19px;
     color: #6d7783;
 }
@@ -128,7 +134,7 @@ li {
 }
 
 .card {
-    margin-right: 20px;
+    margin-left: 30px;
     display: inline-block;
     width: calc((100%/3) - 40px);
 }
